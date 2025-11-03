@@ -67,6 +67,12 @@ body,
 	@apply text-sm bg-white dark:bg-black;
 }
 
+button,
+[role="button"],
+a {
+	@apply cursor-pointer;
+}
+
 @layer base {
 	:root {
 		--background: 0 0% 98%;
